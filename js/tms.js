@@ -7,9 +7,7 @@ m.config(function($routeProvider, $httpProvider) {
 });
 
 function tmsCtrl($scope, $location, $http, $routeParams) {
-	console.log("coming her...");
 }
 
-function loginCtrl($scope, $location, $http, $routeParams) {
-	console.log("login html");
+function loginCtrl($scope) {
 }

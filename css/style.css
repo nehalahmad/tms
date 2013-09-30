@@ -212,11 +212,12 @@ td { vertical-align: top; }
    ========================================================================== */
 
 .container .form-signin {
-	margin: 15% auto 0 auto;
+	margin: 15% auto auto auto;
 	max-width: 330px;
 }
 
-
+/* For placeholder text */
+.form-control.placeholder { color: #999999; }
 
 
 
@@ -231,6 +232,8 @@ td { vertical-align: top; }
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
+  
+
 
 /* For image replacement */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
