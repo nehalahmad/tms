@@ -211,7 +211,10 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
-
+.container .form-signin {
+	margin: 15% auto 0 auto;
+	max-width: 330px;
+}
 
 
 
